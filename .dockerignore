@@ -1,1 +1,45 @@
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*.pyo
 
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Git
+.git/
+.gitignore
+
+# IDE and editor files
+.idea/
+.vscode/
+
+# Test and coverage files
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Logs
+*.log
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Local application storage
+storage/
+
+# Build and distribution artifacts
+build/
+dist/
+*.egg-info/
+
+# Docker
+.dockerignore
